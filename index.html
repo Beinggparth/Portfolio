@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Sonar | Portfolio</title>
+  <style>
+    body {
+      background-color:black;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: red;
+    }
+    #header {
+      background: black;
+      padding:30px;
+      border-bottom:3px solid blue;
+    }
+
+    .navbar{
+      width:90%;
+      max-width:980px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .logo{
+      font-size:22px;
+      font-weight:700;
+      color: white;
+    }
+    .nav a{
+      color: white;
+      font-size:15px;
+      font-weight:700;
+    }
+
+    .nav a:hover{
+      color: red;
+    }
+
+    #main{
+      width:90%;
+      margin:30px;
+    }
+
+    .hero{
+      background-color: black;
+      padding: 50px 40px;
+      border-radius:10px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      border: 2px solid white;
+    }
+
+    .hello {
+      color: white;
+      font-size:15px;
+    }
+
+    .hero_text h1{
+      font-size:38px;
+      color: White;
+    }
+
+    .tagline{
+      font-size:20px;
+      color:pink;
+      font-weight:700;
+    }
+
+    .bio{
+      color:gray;
+      margin-bottom:25px;
+      font-size: 15px;
+    }
+
+    .button{
+      background: hotpink;
+      color:white;
+      padding: 11px 22px;
+      border-radius:5px;
+      font-weight:700;
+      font-size: 15px;
+    }
+
+    .button:hover {
+      background: red;
+    }
+
+    .photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    .section{
+      background-color: black;
+      margin-top: 30px;
+      padding: 35px 35px;
+      border-radius: 10px;
+      border: 2px solid white;
+    }
+
+    .heading{
+      font-size: 25px;
+      color: white;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+
+    .about {
+      display: flex;
+      gap: 35px;
+    }
+
+    .about_text{
+      color: pink;
+      margin-bottom: 12px;
+    }
+
+    .skills{
+      flex: 1;
+      background: white;
+      padding: 18px 20px;
+      border-radius: 6px;
+      border: 4px solid red;
+    }
+
+    .skills h3{
+      margin-bottom:12px;
+      color: black;
+      font-size: 18px;
+    }
+
+    .skills_list{
+      padding-left:18px;
+      color:black;
+    }
+
+    .card{
+      padding: 20px 20px;
+      margin-bottom:20px;
+      border-left: 4px solid blue;
+      background:white;
+    }
+
+    .card_date {
+      font-size:12px;
+      font-weight:700;
+      color: gray;
+    }
+
+    .card_title {
+      font-size:20px;
+      color:black;
+    }
+
+    .card_place {
+      font-size:15px;
+      color:gray;
+      font-style: italic;
+      margin-bottom:8px;
+    }
+
+    .card p {
+      color:black;
+      font-size:15px;
+    }
+
+    .edu {
+      display:flex;
+      gap: 20px;
+    }
+
+    .box {
+      flex:1;
+      background:pink;
+      padding:18px;
+      border-radius:6px;
+      border:1px solid white;
+    }
+
+    .box h3{
+      font-size: 17px;
+      color: black;
+    }
+
+    .box p{
+      color: black;
+      font-size: 14px;
+    }
+
+    .box .year {
+      display:block;
+      margin-top:6px;
+      font-weight:600;
+      color:black;
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="header">
+    <div class="navbar">
+      <div class="logo">Parth Sonar</div>
+      <ul class="nav">
+        <li><a href="#about">About &amp; Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="https://visualuxe.my.canva.site/portfolio" target="_blank">Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main">
+
+    <div class="hero">
+      <div class="hero_text">
+        <span class="hello">Hello, I am</span>
+        <h1>Parth Sonar</h1>
+        <h3 class="tagline">Student and Video Editor</h3>
+        <p class="bio">
+          I am a first-year student at Scaler School of Technology. I enjoy video editing, programming and learning new things.
+        </p>
+        <a href="https://visualuxe.my.canva.site/portfolio" target="_blank" class="button">View Video Portfolio</a>
+      </div>
+      <div>
+       <img src="ParthPortfolioimage.jpeg" alt="Parth Sonar" class="photo">
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <div class="about">
+        <div class="about_text">
+          <h2 class="heading">About Me</h2>
+          <p>I am from Nashik, Maharashtra. I am currently studying technology and building my programming skills. Along with college, I work as a freelance video editor.</p>
+          <p>I have worked with more than 200 clients from different countries. I like creating clean and engaging videos for digital platforms. My knowledge of social media marketing also helps me understand what type of content works online.</p>
+          <a href = "https://github.com/Beinggparth" class="button">View My GitHub</a>
+        </div>
+        <div class="skills">
+          <h3>My Skills</h3>
+          <ul class="skills_list">
+            <li>Video Editing</li>
+            <li>HTML and CSS</li>
+            <li>C, C++ and Java</li>
+            <li>Social Media Marketing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="section">
+      <h2 class="heading">Experience</h2>
+
+      <div class="card">
+        <div class="card_date">December 2020 - Present</div>
+        <h3 class="card_title">Freelance Video Editor</h3>
+        <div class="card_place">Freelance · Nashik, Maharashtra</div>
+        <p>Worked with 200+ clients and created video content for different digital platforms. I handle the process from idea to final video.</p>
+      </div>
+
+      <div class="card">
+        <div class="card_date">January 2026 - July 2026</div>
+        <h3 class="card_title">Software Developer Intern</h3>
+        <div class="card_place">FireFist Solutions · Hybrid</div>
+        <p>Practised C, C++ and Java through coding tasks. Learned object-oriented programming, data structures, debugging and teamwork.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="heading">Education</h2>
+      <div class="edu">
+        <div class="box">
+          <h3>Scaler School of Technology</h3>
+          <p>Undergraduate Student</p>
+          <span class="year">2026 - 2030</span>
+        </div>
+        <div class="box">
+          <h3>BITS Pilani</h3>
+          <p>Bachelor's Program</p>
+          <span class="year">2026 - 2029</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
